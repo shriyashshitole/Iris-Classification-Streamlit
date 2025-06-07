@@ -7,7 +7,9 @@ from sklearn.ensemble import RandomForestClassifier
 st.markdown("""
 # Simple Iris Flower Prediction App
          
-This app predicts the **Iris Flower** type!         
+This app predicts the **Iris Flower** type!
+
+As Iris Setosa, Iris Veriscolor and Iris Virginica look very similar this app is made to differentiate between them. Enter the flower characteristics in the sidebar to know the flower.                                
 """)
 
 iris = datasets.load_iris()
@@ -94,3 +96,6 @@ else:
     col1.image(Image.open("setosa.png"))
     col2.image(Image.open("veriscolor.png"))
     col3.image(Image.open("virginica.png"))
+
+st.write("""***""")
+st.write("""**_By Shriyash Shitole_**""")
