@@ -2,6 +2,6 @@
 
 Variably change features to get predictions, streamlit integration for deployment.
 
-<pip install requirements.txt>
+>pip install requirements.txt
 
-<streamlit run iris-ml-app.py>
+>streamlit run iris-ml-app.py
