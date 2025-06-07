@@ -80,7 +80,7 @@ if iris.target_names[prediction][0] == "setosa":
     col1, col2 = st.columns([3,5])
     col1.image(Image.open("setosa.png"))
     col2.write('Iris setosa, the bristle-pointed iris, is a species of flowering plant in the genus Iris of the family Iridaceae. It belongs the subgenus Limniris and the series Tripetalae. It is a rhizomatous perennial from a wide range across the Arctic sea, including Alaska, Maine, Canada (including British Columbia, Newfoundland, Quebec and Yukon), Russia (including Siberia), northeastern Asia, China, Korea, and southward to Japan.')
-if iris.target_names[prediction][0] == "veriscolor":
+if iris.target_names[prediction][0] == "versicolor":
     col1, col2 = st.columns([3,5])
     col1.image(Image.open("veriscolor.png"))
     col2.write('Iris versicolor or Iris versicolour is also commonly known as the blue flag, harlequin blueflag, larger blue flag, northern blue flag, and poison flag, plus other variations of these names, and in Great Britain and Ireland as purple iris.')
